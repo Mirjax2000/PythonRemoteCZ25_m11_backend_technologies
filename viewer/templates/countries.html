@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Seznam zemi
+{% endblock %}
+
+{% block content %}
+    <h1>Seznam zemi</h1>
+    <ul>
+        {% for country in countries %}
+            <li><a href="{% url "one_country" country.id %}">{{ country }}</a></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

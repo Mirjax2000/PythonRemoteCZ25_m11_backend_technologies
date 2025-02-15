@@ -1,195 +1,671 @@
 [
-  {
-    "model": "viewer.genre",
-    "pk": 1,
-    "fields": {
-      "name": "Thriller"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 2,
-    "fields": {
-      "name": "Horror"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 3,
-    "fields": {
-      "name": "Komedie"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 4,
-    "fields": {
-      "name": "Drama"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 5,
-    "fields": {
-      "name": "Sci-Fi"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 6,
-    "fields": {
-      "name": "Fantasy"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 7,
-    "fields": {
-      "name": "Krimi"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 8,
-    "fields": {
-      "name": "RomantickÃ½"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 9,
-    "fields": {
-      "name": "MysteriÃ³znÃ­"
-    }
-  },
-  {
-    "model": "viewer.genre",
-    "pk": 10,
-    "fields": {
-      "name": "PsychologickÃ½"
-    }
-  },
-  {
-    "model": "viewer.movie",
-    "pk": 1,
-    "fields": {
-      "title_orig": "The Shawshank Redemption",
-      "title_cz": "VykoupenÃ­ z vÄ›znice Shawshank",
-      "length": 142,
-      "description": "Strach dÄ›lÃ¡ z lidÃ­ vÄ›znÄ›. NadÄ›je jim dÃ¡vÃ¡ kÅ™Ã­dla. Film natoÄenÃ½ podle novely Stephena Kinga. StrhujÃ­cÃ­ pÅ™Ã­bÄ›h o pÅ™Ã¡telstvÃ­, nadÄ›ji a moudrosti s velmi vÃ½raznÃ½mi hereckÃ½mi i charakterovÃ½mi osobnostmi. Andy Dufresne (Tim Robbins) pÅ™ichÃ¡zÃ­ do vÄ›zenÃ­ v Shawshanku jako novÃ½ vÄ›zeÅˆ podezÅ™elÃ½ z vraÅ¾dy. SpÅ™Ã¡telÃ­ se s doÅ¾ivotnÄ› odsouzenÃ½m Redem (Morgan Freeman) a spoleÄnÄ› se snaÅ¾Ã­ pÅ™eÅ¾Ã­t v nelidskÃ©m prostÅ™edÃ­ vÄ›zeÅˆskÃ©ho systÃ©mu. OdmÃ­tajÃ­ upadnout do rezignace a dodÃ¡vajÃ­ nadÄ›ji sobÄ› i spoluvÄ›zÅˆÅ¯m. Film zÃ­skal mnoho ocenÄ›nÃ­ filmovÃ© kritiky a dÃ­ky svÃ©mu hluboce humÃ¡nnÃ­mu poselstvÃ­, skvÄ›lÃ½m hereckÃ½m vÃ½konÅ¯m a pÅ¯sobivÃ©mu zpracovÃ¡nÃ­ byl 7 x nominovÃ¡n na Oscara - za nejlepÅ¡Ã­ film, herce v hlavnÃ­ roli (Morgan Freeman), nejlepÅ¡Ã­ scÃ©nÃ¡Å™, kameru, hudbu, stÅ™ih a zvuk.",
-      "released_date": null,
-      "released_year": 1994,
-      "created": "2025-02-02T19:56:53.276Z",
-      "updated": "2025-02-02T19:58:51.366Z",
-      "genres": [
-        4,
-        7
-      ],
-      "countries": [
-        1
-      ]
-    }
-  },
-  {
-    "model": "viewer.movie",
-    "pk": 2,
-    "fields": {
-      "title_orig": "Forrest Gump",
-      "title_cz": "Forrest Gump",
-      "length": 142,
-      "description": "ZemeckisÅ¯v film je brilantnÃ­m shrnutÃ­m dosavadnÃ­ch reÅ¾isÃ©rovÃ½ch poznatkÅ¯ o moÅ¾nostech \"comicsovÃ©ho\" vyprÃ¡vÄ›nÃ­. FormÃ¡lnÄ› i obsahovÄ› nejmÃ©nÄ› konvenÄnÃ­ z jeho snÃ­mkÅ¯ pÅ™esvÄ›dÄuje komediÃ¡lnÃ­mi gagy i nalÃ©havÄ› patetickÃ½m tÃ³nem. Jeho hrdinou je prosÅ¥Ã¡Äek Forrest Gump, typickÃ½ obyÄejnÃ½ muÅ¾, kterÃ½ od dÄ›tstvÃ­ dÄ›lal, co se mu Å™eklo. Do Å¾ivota si tak odnesl nÄ›kolik ponauÄenÃ­ svÃ© peÄlivÃ© maminky a osvÄ›dÄenÃ© pravidlo, jeÅ¾ se mu hodÃ­ mnohokrÃ¡t v nejrÅ¯znÄ›jÅ¡Ã­ch situacÃ­ch: KdyÅ¾ se dostaneÅ¡ do problÃ©mÅ¯, utÃ­kej. Forrest proutÃ­kÃ¡ Å¡kolou, jako hrÃ¡Ä americkÃ©ho fotbalu i univerzitou, potom peklem vietnamskÃ© vÃ¡lky a zoufalstvÃ­m nad matÄinou smrtÃ­. VÅ¾dycky je totiÅ¾ nÄ›kdo nebo nÄ›co, co po nÄ›m skuteÄnÄ› Äi obraznÄ› \"hÃ¡zÃ­ kameny\". Nakonec vÅ¡ak Forrest poznÃ¡vÃ¡, Å¾e jsou i jinÃ¡ Å™eÅ¡enÃ­ situacÃ­ neÅ¾ ÃºtÄ›k. SvÅ¯j Å¾ivot spojuje s kamarÃ¡dkou ze Å¡koly Jenny, kterÃ¡ pro nÄ›j zÅ¯stane provÅ¾dycky jedinou lÃ¡skou, s pÅ™Ã­telem z vojny, Äernochem Bubbou, kterÃ½ dÃ¡ smÄ›r jeho ÃºvahÃ¡m o lovu krevet a s poruÄÃ­kem Taylorem, jemuÅ¾ ve Vietnamu zachrÃ¡nÃ­ Å¾ivot. Forrestova Å¾ivotnÃ­ pouÅ¥ od 50. do 80. let je koncipovanÃ¡ jako totÃ¡lnÄ› \"bezelstnÃ©\" vyprÃ¡vÄ›nÃ­ hrdiny, neschopnÃ©ho obecnÄ›jÅ¡Ã­ho hodnocenÃ­ situace. Forrest jako sportovec i jako vÃ¡leÄnÃ½ hrdina se setkÃ¡vÃ¡ se slavnÃ½mi lidmi, kterÃ© nakonec vÅ¾dycky nÄ›kdo zastÅ™elÃ­ (J. F. Kennedy, J. Lennon). TakÃ© jeho bliÅ¾nÃ­ umÃ­rajÃ­, ale on sÃ¡m zÅ¯stÃ¡vÃ¡. Empiricky se dopracovÃ¡vÃ¡ od impulsivnÃ­ho ÃºtÄ›ku pÅ™ed Å¾ivotem k ÃºvahÃ¡m o lidskÃ©m osudu a o Bohu. SoukromÃ½ hrdinÅ¯v osud zÃ¡roveÅˆ postihuje tÅ™icet let povÃ¡leÄnÃ½ch americkÃ½ch dÄ›jin.",
-      "released_date": null,
-      "released_year": 1994,
-      "created": "2025-02-02T19:56:53.276Z",
-      "updated": "2025-02-02T19:59:03.481Z",
-      "genres": [
-        4,
-        3,
-        8
-      ],
-      "countries": [
-        1
-      ]
-    }
-  },
-  {
-    "model": "viewer.movie",
-    "pk": 3,
-    "fields": {
-      "title_orig": "The Green Mile",
-      "title_cz": "ZelenÃ¡ mÃ­le",
-      "length": 188,
-      "description": "Na zaÄÃ¡tku pÅ™Ã­bÄ›hu se potkÃ¡me se starÃ½m muÅ¾em Paulem Edgecombem (Dabbs Greer). Å½ije v domovÄ› s peÄovatelskou sluÅ¾bou a prÃ¡vÄ› se dojatÄ› dÃ­vÃ¡ na starÃ½ film s Fredem Astairem. Snad aÅ¾ pÅ™Ã­liÅ¡ dojatÄ›, protoÅ¾e jedna ze sester ho musÃ­ zkontrolovat, kdyÅ¾ slyÅ¡Ã­ vÅ¡echny ty vzlyky. Paul je tak namÄ›kko, Å¾e jÃ­ zaÄne vypravovat svÅ¯j pÅ™Ã­bÄ›h starÃ½ 60 let, kterÃ½ jeÅ¡tÄ› nikomu nevypravoval. Kolem roku 1935 v LouisianÄ›, mladÃ½ Paul (teÄ uÅ¾ Tom Hanks) pracuje jako dozorce ve vÄ›zenÃ­ pro tÄ›Å¾kÃ© zloÄince, kteÅ™Ã­ jsou odsud posÃ­lÃ¡ni na smrt. Paul nenÃ­ jen \"zamÄ›stnancem\", ale bystrÃ½m pozorovatelem, kterÃ½ citlivÄ› vnÃ­mÃ¡ rÃ¡zovitÃ© postavy tÄ›Å¾kÃ½ch zloÄincÅ¯ i jejich osudy. SetkÃ¡vÃ¡ se napÅ™Ã­klad s s ÄernÃ½m obrem Johnem, kterÃ½ mÃ¡ ruce jako lopaty a je obvinÄ›n z vraÅ¾dy dvou dÄ›tÃ­. NemÅ¯Å¾e uvÄ›Å™it, Å¾e ÄlovÄ›k, kterÃ½ se bojÃ­ spÃ¡t potmÄ› by byl schopen tak hrÅ¯znÃ©ho Äinu. Je tu takÃ© hluboce vÄ›Å™Ã­cÃ­ Arlen, a blÃ¡znivÃ½ psychopat zvanÃ½ DivokÃ½ Bill, ale je tu takÃ© ta hrÅ¯zostraÅ¡nÃ¡ chodba, natÅ™enÃ¡ na zeleno, kterÃ© vÅ¡ichni Å™Ã­kajÃ­ \"ZelenÃ¡ mÃ­le\", je to cesta, na konci kterÃ© ÄekÃ¡ smrt, pokud se nestane zÃ¡zrak.",
-      "released_date": null,
-      "released_year": 1999,
-      "created": "2025-02-02T19:56:53.276Z",
-      "updated": "2025-02-02T19:59:25.180Z",
-      "genres": [
-        4,
-        7,
-        9
-      ],
-      "countries": [
-        1
-      ]
-    }
-  },
-  {
-    "model": "viewer.movie",
-    "pk": 4,
-    "fields": {
-      "title_orig": "Se7en",
-      "title_cz": "Sedm",
-      "length": 127,
-      "description": "Dva policistÃ© (Brad Pitt a Morgan Freeman) jsou na stopÄ› geniÃ¡lnÃ­ho vraha, zodpovÄ›dnÃ©ho za sÃ©rii dÄ›sivÃ½ch vraÅ¾d, jejichÅ¾ obÄ›ti spojuje sedm smrtelnÃ½ch hÅ™Ã­chÅ¯. V jednÃ© z rolÃ­ tohoto kvalitnÃ­ho trhilleru, zasazenÃ©ho do temnÃ©ho mÄ›sta nasÃ¡klÃ©ho bolestÃ­ a zkÃ¡zou, uvidÃ­te takÃ© Gwyneth Paltrow. David Fincher (Klub rvÃ¡ÄÅ¯, Zodiac, PodivuhodnÃ½ pÅ™Ã­pad Benjamina Buttona) s dokonalou znalostÃ­ naÅ¡ich nejhlubÅ¡Ã­ch obav pevnÄ› svÃ­rÃ¡ otÄ›Å¾e akce â€“ fyzickÃ©, psychickÃ© i spirituÃ¡lnÃ­ â€“ neodvratnÄ› smÄ›Å™ujÃ­cÃ­ k rozuzlenÃ­, kterÃ© do hloubi otÅ™ese i tou nejzatvrzelejÅ¡Ã­ duÅ¡Ã­.",
-      "released_date": null,
-      "released_year": 1995,
-      "created": "2025-02-02T19:56:53.276Z",
-      "updated": "2025-02-02T19:59:14.589Z",
-      "genres": [
-        4,
-        7,
-        9,
-        10,
-        1
-      ],
-      "countries": [
-        1
-      ]
-    }
-  },
-  {
-    "model": "viewer.movie",
-    "pk": 5,
-    "fields": {
-      "title_orig": "One Flew over the Cuckoo's Nest",
-      "title_cz": "PÅ™elet nad kukaÄÄÃ­m hnÃ­zdem",
-      "length": 133,
-      "description": "KdyÅ¾ svobodomyslnÃ½ malÃ½ podvodnÃ­Äek Randle P. McMurphy (Jack Nicholson) pÅ™ichÃ¡zÃ­ do stÃ¡tnÃ­ psychiatrickÃ© nemocnice, jeho nakaÅ¾livÃ½ odpor k disciplÃ­nÄ› otÅ™ese rutinou celÃ©ho zaÅ™Ã­zenÃ­. On je jednou stranou nastÃ¡vajÃ­cÃ­ vÃ¡lky. UhlazenÃ¡, chladnÄ› monstrÃ³znÃ­ sestra RatchedovÃ¡ (Louise Fletcher) druhou. V sÃ¡zce je osud vÅ¡ech pacientÅ¯ na oddÄ›lenÃ­... Tato elektrizujÃ­cÃ­ adaptace bestselleru Kena Keseyho zÃ­skala vÅ¡ech pÄ›t hlavnÃ­ch OscarÅ¯ za rok 1975: NejlepÅ¡Ã­ film (produkce Saul Zaentz a Michael Douglas), herec (Nicholson), hereÄka (Fletcher), reÅ¾isÃ©r (MiloÅ¡ Forman) a adaptovanÃ½ scÃ©nÃ¡Å™ (Lawrence Hauben a Bo Goldman). DivokÃ½, spalujÃ­cÃ­ film s vynikajÃ­cÃ­m hereckÃ½m obsazenÃ­m, ÄÃ­tajÃ­cÃ­m mj. Brada Dourifa, Dannyho DeVita a debutujÃ­cÃ­ho Christophera Lloyda, si je plnÄ› zaslouÅ¾Ã­.",
-      "released_date": null,
-      "released_year": 1975,
-      "created": "2025-02-02T19:56:53.276Z",
-      "updated": "2025-02-02T19:58:38.721Z",
-      "genres": [
-        4
-      ],
-      "countries": [
-        1
-      ]
-    }
-  },
-  {
-    "model": "viewer.country",
-    "pk": 1,
-    "fields": {
-      "name": "USA"
-    }
-  },
-  {
-    "model": "viewer.country",
-    "pk": 2,
-    "fields": {
-      "name": "Francie"
-    }
+{
+  "model": "viewer.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Horror"
   }
+},
+{
+  "model": "viewer.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Comedy"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Anime"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Thriller"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Drama"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Action"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Western"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Fantasy"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Sci-fi"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Adventure"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 11,
+  "fields": {
+    "name": "Dokument"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 12,
+  "fields": {
+    "name": "crimi"
+  }
+},
+{
+  "model": "viewer.genre",
+  "pk": 13,
+  "fields": {
+    "name": "Sport"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 1,
+  "fields": {
+    "name": "Mirjax",
+    "surname": "Vigokiller",
+    "alias": "Vigo",
+    "date_of_birth": "1977-02-15",
+    "date_of_death": null,
+    "country": 3,
+    "created": "2025-02-15T12:07:13.264Z",
+    "updated": "2025-02-15T12:07:13.264Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 2,
+  "fields": {
+    "name": "Arnold",
+    "surname": "Shwarzennegger",
+    "alias": null,
+    "date_of_birth": "1964-04-01",
+    "date_of_death": null,
+    "country": 8,
+    "created": "2025-02-15T12:08:14.243Z",
+    "updated": "2025-02-15T12:08:14.243Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 3,
+  "fields": {
+    "name": "Sylvester",
+    "surname": "Stallone",
+    "alias": "Sly",
+    "date_of_birth": "2060-11-12",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:08:46.884Z",
+    "updated": "2025-02-15T12:08:46.884Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 4,
+  "fields": {
+    "name": "Robert",
+    "surname": "Zemekis",
+    "alias": null,
+    "date_of_birth": "1948-01-24",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:09:28.299Z",
+    "updated": "2025-02-15T12:09:28.299Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 5,
+  "fields": {
+    "name": "Paul",
+    "surname": "Verhoeven",
+    "alias": null,
+    "date_of_birth": "1938-07-18",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:10:44.070Z",
+    "updated": "2025-02-15T12:10:44.070Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 6,
+  "fields": {
+    "name": "Peter",
+    "surname": "Weller",
+    "alias": null,
+    "date_of_birth": "1948-06-24",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:11:40.755Z",
+    "updated": "2025-02-15T12:11:40.755Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 7,
+  "fields": {
+    "name": "Jeffrey",
+    "surname": "Abrams",
+    "alias": "J.J.Abrams",
+    "date_of_birth": "1966-06-27",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:13:03.220Z",
+    "updated": "2025-02-15T12:13:03.220Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 8,
+  "fields": {
+    "name": "Chris",
+    "surname": "Pine",
+    "alias": null,
+    "date_of_birth": "1980-02-15",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:13:38.887Z",
+    "updated": "2025-02-15T12:13:38.887Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 9,
+  "fields": {
+    "name": "Karl",
+    "surname": "Urban",
+    "alias": null,
+    "date_of_birth": "1972-03-24",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:14:18.282Z",
+    "updated": "2025-02-15T12:14:18.282Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 10,
+  "fields": {
+    "name": "Frank",
+    "surname": "Darabont",
+    "alias": null,
+    "date_of_birth": "1959-01-28",
+    "date_of_death": null,
+    "country": 9,
+    "created": "2025-02-15T12:15:14.150Z",
+    "updated": "2025-02-15T12:15:36.770Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 11,
+  "fields": {
+    "name": "Tim",
+    "surname": "Robbins",
+    "alias": null,
+    "date_of_birth": "1958-10-16",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:16:21.204Z",
+    "updated": "2025-02-15T12:16:21.204Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 12,
+  "fields": {
+    "name": "Morgan",
+    "surname": "Freeman",
+    "alias": null,
+    "date_of_birth": "1937-06-01",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:17:11.401Z",
+    "updated": "2025-02-15T12:17:11.401Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 13,
+  "fields": {
+    "name": "Tom",
+    "surname": "Hanks",
+    "alias": null,
+    "date_of_birth": "1956-07-09",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:17:55.042Z",
+    "updated": "2025-02-15T12:17:55.042Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 14,
+  "fields": {
+    "name": "Francis",
+    "surname": "Coppola",
+    "alias": null,
+    "date_of_birth": "1939-04-07",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:19:01.198Z",
+    "updated": "2025-02-15T12:19:01.198Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 15,
+  "fields": {
+    "name": "Steven",
+    "surname": "Spielberg",
+    "alias": null,
+    "date_of_birth": "1946-12-18",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:19:44.452Z",
+    "updated": "2025-02-15T12:19:44.452Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 16,
+  "fields": {
+    "name": "Harrison",
+    "surname": "Ford",
+    "alias": null,
+    "date_of_birth": "1942-07-13",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:20:21.438Z",
+    "updated": "2025-02-15T12:20:21.438Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 17,
+  "fields": {
+    "name": "Milos",
+    "surname": "Forman",
+    "alias": null,
+    "date_of_birth": "1932-02-18",
+    "date_of_death": "2018-04-13",
+    "country": 3,
+    "created": "2025-02-15T12:21:57.334Z",
+    "updated": "2025-02-15T12:21:57.334Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 18,
+  "fields": {
+    "name": "Al",
+    "surname": "Pacino",
+    "alias": null,
+    "date_of_birth": "1940-04-25",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:23:03.704Z",
+    "updated": "2025-02-15T12:23:03.704Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 19,
+  "fields": {
+    "name": "James",
+    "surname": "Whitmore",
+    "alias": null,
+    "date_of_birth": "1921-10-01",
+    "date_of_death": "2009-02-06",
+    "country": 1,
+    "created": "2025-02-15T12:25:22.374Z",
+    "updated": "2025-02-15T12:25:22.374Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 20,
+  "fields": {
+    "name": "Gary",
+    "surname": "Sinise",
+    "alias": null,
+    "date_of_birth": "1955-03-17",
+    "date_of_death": null,
+    "country": 1,
+    "created": "2025-02-15T12:28:09.716Z",
+    "updated": "2025-02-15T12:28:09.716Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 21,
+  "fields": {
+    "name": "Michael",
+    "surname": "Duncan",
+    "alias": null,
+    "date_of_birth": "1957-12-10",
+    "date_of_death": "2012-09-03",
+    "country": 1,
+    "created": "2025-02-15T12:30:41.247Z",
+    "updated": "2025-02-15T12:30:41.247Z"
+  }
+},
+{
+  "model": "viewer.creator",
+  "pk": 22,
+  "fields": {
+    "name": "James",
+    "surname": "Cameron",
+    "alias": null,
+    "date_of_birth": "1964-08-16",
+    "date_of_death": null,
+    "country": 10,
+    "created": "2025-02-15T12:36:41.338Z",
+    "updated": "2025-02-15T12:36:41.338Z"
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 1,
+  "fields": {
+    "title_orig": "The Shawshank Redemption",
+    "title_cz": "Vykoupení z vìznice Shawshank",
+    "length": 142,
+    "description": "Strach dìlá z lidí vìznì. Nadìje jim dává køídla. Film natoèenı podle novely Stephena Kinga. Strhující pøíbìh o pøátelství, nadìji a moudrosti s velmi vıraznımi hereckımi i charakterovımi osobnostmi. Andy Dufresne (Tim Robbins) pøichází do vìzení v Shawshanku jako novı vìzeò podezøelı z vrady. Spøátelí se s doivotnì odsouzenım Redem (Morgan Freeman) a spoleènì se snaí pøeít v nelidském prostøedí vìzeòského systému. Odmítají upadnout do rezignace a dodávají nadìji sobì i spoluvìzòùm. Film získal mnoho ocenìní filmové kritiky a díky svému hluboce humánnímu poselství, skvìlım hereckım vıkonùm a pùsobivému zpracování byl 7 x nominován na Oscara - za nejlepší film, herce v hlavní roli (Morgan Freeman), nejlepší scénáø, kameru, hudbu, støih a zvuk.",
+    "released_date": "1994-02-02",
+    "released_year": 1994,
+    "created": "2025-02-15T12:26:26.376Z",
+    "updated": "2025-02-15T12:26:26.376Z",
+    "genres": [
+      5,
+      12
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      10
+    ],
+    "actors": [
+      12,
+      19
+    ]
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 2,
+  "fields": {
+    "title_orig": "Forrest Gump",
+    "title_cz": "Forrest Gump",
+    "length": 142,
+    "description": "Zemeckisùv film je brilantním shrnutím dosavadních reisérovıch poznatkù o monostech \"comicsového\" vyprávìní. Formálnì i obsahovì nejménì konvenèní z jeho snímkù pøesvìdèuje komediálními gagy i naléhavì patetickım tónem. Jeho hrdinou je prosáèek Forrest Gump, typickı obyèejnı mu, kterı od dìtství dìlal, co se mu øeklo. Do ivota si tak odnesl nìkolik ponauèení své peèlivé maminky a osvìdèené pravidlo, je se mu hodí mnohokrát v nejrùznìjších situacích: Kdy se dostaneš do problémù, utíkej. Forrest proutíká školou, jako hráè amerického fotbalu i univerzitou, potom peklem vietnamské války a zoufalstvím nad matèinou smrtí. Vdycky je toti nìkdo nebo nìco, co po nìm skuteènì èi obraznì \"hází kameny\". Nakonec však Forrest poznává, e jsou i jiná øešení situací ne útìk. Svùj ivot spojuje s kamarádkou ze školy Jenny, která pro nìj zùstane provdycky jedinou láskou, s pøítelem z vojny, èernochem Bubbou, kterı dá smìr jeho úvahám o lovu krevet a s poruèíkem Taylorem, jemu ve Vietnamu zachrání ivot. Forrestova ivotní pou od 50. do 80. let je koncipovaná jako totálnì \"bezelstné\" vyprávìní hrdiny, neschopného obecnìjšího hodnocení situace. Forrest jako sportovec i jako váleènı hrdina se setkává se slavnımi lidmi, které nakonec vdycky nìkdo zastøelí (J. F. Kennedy, J. Lennon). Také jeho bliní umírají, ale on sám zùstává. Empiricky se dopracovává od impulsivního útìku pøed ivotem k úvahám o lidském osudu a o Bohu. Soukromı hrdinùv osud zároveò postihuje tøicet let pováleènıch americkıch dìjin.",
+    "released_date": "1994-06-12",
+    "released_year": 1994,
+    "created": "2025-02-15T12:28:53.122Z",
+    "updated": "2025-02-15T12:28:53.122Z",
+    "genres": [
+      2,
+      5
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      4
+    ],
+    "actors": [
+      13,
+      20
+    ]
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 3,
+  "fields": {
+    "title_orig": "The Green Mile",
+    "title_cz": "Zelená míle",
+    "length": 188,
+    "description": "Na zaèátku pøíbìhu se potkáme se starım muem Paulem Edgecombem (Dabbs Greer). ije v domovì s peèovatelskou slubou a právì se dojatì dívá na starı film s Fredem Astairem. Snad a pøíliš dojatì, protoe jedna ze sester ho musí zkontrolovat, kdy slyší všechny ty vzlyky. Paul je tak namìkko, e jí zaène vypravovat svùj pøíbìh starı 60 let, kterı ještì nikomu nevypravoval. Kolem roku 1935 v Louisianì, mladı Paul (teï u Tom Hanks) pracuje jako dozorce ve vìzení pro tìké zloèince, kteøí jsou odsud posíláni na smrt. Paul není jen \"zamìstnancem\", ale bystrım pozorovatelem, kterı citlivì vnímá rázovité postavy tìkıch zloèincù i jejich osudy. Setkává se napøíklad s s èernım obrem Johnem, kterı má ruce jako lopaty a je obvinìn z vrady dvou dìtí. Nemùe uvìøit, e èlovìk, kterı se bojí spát potmì by byl schopen tak hrùzného èinu. Je tu také hluboce vìøící Arlen, a bláznivı psychopat zvanı Divokı Bill, ale je tu také ta hrùzostrašná chodba, natøená na zeleno, které všichni øíkají \"Zelená míle\", je to cesta, na konci které èeká smrt, pokud se nestane zázrak. (oficiální text distributora)",
+    "released_date": "1999-04-12",
+    "released_year": 1999,
+    "created": "2025-02-15T12:31:22.662Z",
+    "updated": "2025-02-15T12:31:22.662Z",
+    "genres": [
+      5,
+      12
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      10
+    ],
+    "actors": [
+      21,
+      13
+    ]
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 4,
+  "fields": {
+    "title_orig": "One Flew over the Cuckoo's Nest",
+    "title_cz": "Pøelet nad kukaèèím hnízdem",
+    "length": 133,
+    "description": "Kdy svobodomyslnı malı podvodníèek Randle P. McMurphy (Jack Nicholson) pøichází do státní psychiatrické nemocnice, jeho nakalivı odpor k disciplínì otøese rutinou celého zaøízení. On je jednou stranou nastávající války. Uhlazená, chladnì monstrózní sestra Ratchedová (Louise Fletcher) druhou. V sázce je osud všech pacientù na oddìlení... Tato elektrizující adaptace bestselleru Kena Keseyho získala všech pìt hlavních Oscarù za rok 1975: Nejlepší film (produkce Saul Zaentz a Michael Douglas), herec (Nicholson), hereèka (Fletcher), reisér (Miloš Forman) a adaptovanı scénáø (Lawrence Hauben a Bo Goldman). Divokı, spalující film s vynikajícím hereckım obsazením, èítajícím mj. Brada Dourifa, Dannyho DeVita a debutujícího Christophera Lloyda, si je plnì zaslouí. (oficiální text distributora)",
+    "released_date": "1975-08-12",
+    "released_year": 1975,
+    "created": "2025-02-15T12:32:37.402Z",
+    "updated": "2025-02-15T12:32:37.402Z",
+    "genres": [
+      5
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      17
+    ],
+    "actors": [
+      21,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 5,
+  "fields": {
+    "title_orig": "Robocop",
+    "title_cz": "Robocop",
+    "length": 102,
+    "description": "Neúnavnı policista (Peter Weller) nelítostnì zasahuje proti jakékoliv kriminalitì kolem sebe. Vìdci a lékaøi ho sestavili jako neporazitelného kyborga \"ROBOCOPA\", kterı bojuje proti zloèinu. Odolnı vùèi støelám a bombám, vyzbrojenı tìmi nejmodernìjšími zbranìmi si ROBOCOP rychle získává jméno v ulicích Detroitu plnıch násilí. Ale navzdory novému drsnému zevnìjšku se ROBOCOP uvnitø trápí, útrky vzpomínek z døívìjšího ivota a ivì si vybavuje hrùzy své vlastní smrti rukama brutálních zabijákù. Nechce jen spravedlnost ... chce se pomstít! (oficiální text distributora)",
+    "released_date": "1987-06-12",
+    "released_year": 1987,
+    "created": "2025-02-15T12:34:12.011Z",
+    "updated": "2025-02-15T12:34:12.011Z",
+    "genres": [
+      6,
+      9,
+      4,
+      12
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      5
+    ],
+    "actors": [
+      9,
+      6
+    ]
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 6,
+  "fields": {
+    "title_orig": "Rocky",
+    "title_cz": "Rocky",
+    "length": 115,
+    "description": "Slavné boxerské drama outsidera, kterı dostal šanci a zvítìzil sám nad sebou. Titulní hrdina, neúspìšnı tøicetiletı boxer Rocky Balboa, pracuje jako vıbìrèí dluhù pro místního lichváøe, boxuje v pokoutních zápasech a neúspìšnì se dvoøí Adrian, plaché prodavaèce v obchodì s drobnım zvíøectvem. V dobì, kdy bıvalı trenér vyhodí Rockyho z tìlocvièny, protoe se mu zdá, e jako boxer promrhal svùj talent a je vyøízená existence, chystá se ve Filadelfii boj o titul mistra svìta v tìké váze. Protoe se však vyzyvatel zranil a nemùe k zápasu nastoupit, vyhlásí obhájce titulu Apollo Creed, e bude boxovat s kterımkoli místním boxerem, protoe chce dokázat, e Amerika je zemí, v ní má kadı šanci uspìt. Vybere si Rockyho, protoe se mu líbí jeho pøezdívka Italskı høebec, slibující dobrou publicitu. Zatímco se Rocky nesmìle sbliuje s Adrian, rozjídí se velkolepá reklamní kampaò. Rockyho zpovídají televizní reportéøi, píše se o nìm v novinách. Všichni se ovšem vysmívají jeho bezelstnosti a nikdo mu nedává sebemenší šanci. Pøijde za ním bıvalı trenér Mickey, nabízí mu své sluby jako trenér a manaer. Rocky jej nejprve vyhodí, ale pak souhlasí. Zaèíná tvrdı trénink. Bìhá, boxuje a postupnì se dostává do fyzické i psychické kondice, také díky tomu, e se k nìmu nastìhuje Adrian. V noci pøed zápasem se jí Rocky svìøí, e chce s Creedem vybojovat rovnocennı zápas, i kdy si uvìdomuje své minimální šance. 1. ledna 1976 je hala vyprodána. Zaèíná velkolepá podívaná, kterou je boj o titul mistra svìta. Pøekvapenı Apollo Creed, pro nìho je zápas, stejnì jako pro diváky, pouze show pro pobavení, jde hned v prvním kole po Rockyho ránì k zemi. Teprve pak zaène opravdovı zápas. Rocky bojuje jako o ivot, nìkolikrát jde k zemi, ale pokadé se zvedne. (oficiální text distributora)",
+    "released_date": "1976-05-05",
+    "released_year": 1976,
+    "created": "2025-02-15T12:35:48.276Z",
+    "updated": "2025-02-15T12:35:48.276Z",
+    "genres": [
+      5,
+      13
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      14
+    ],
+    "actors": [
+      3,
+      19
+    ]
+  }
+},
+{
+  "model": "viewer.movie",
+  "pk": 7,
+  "fields": {
+    "title_orig": "Terminator",
+    "title_cz": "Terminator",
+    "length": 107,
+    "description": "Z roku 2029 je do Los Angeles roku 1984 vyslán zabijáckı stroj podobnı èlovìku. Má za úkol zabít Sarah Connorovou døív, ne pøivede na svìt syna, kterı se má pozdìji stát vùdcem lidí ve válce proti strojùm. Lidé ijící v budoucnosti ovšem do souèasnosti také vyslali svého mue, kterı se bude snait Sarah zachránit. (oficiální text distributora)",
+    "released_date": "1984-11-17",
+    "released_year": 1984,
+    "created": "2025-02-15T12:37:37.144Z",
+    "updated": "2025-02-15T12:37:37.144Z",
+    "genres": [
+      6,
+      9
+    ],
+    "countries": [
+      1
+    ],
+    "directors": [
+      22
+    ],
+    "actors": [
+      18,
+      2,
+      20,
+      3
+    ]
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 1,
+  "fields": {
+    "name": "USA"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 2,
+  "fields": {
+    "name": "Afrika"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 3,
+  "fields": {
+    "name": "Czech Republic"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 4,
+  "fields": {
+    "name": "Germany"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 5,
+  "fields": {
+    "name": "Japan"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 6,
+  "fields": {
+    "name": "China"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 7,
+  "fields": {
+    "name": "India"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 8,
+  "fields": {
+    "name": "Austria"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 9,
+  "fields": {
+    "name": "France"
+  }
+},
+{
+  "model": "viewer.country",
+  "pk": 10,
+  "fields": {
+    "name": "Canada"
+  }
+}
 ]
