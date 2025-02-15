@@ -1,15 +1,14 @@
 {% extends "base.html" %}
-
 {% block title %}
     Žánr: {{ country }}
-{% endblock %}
-
+{% endblock title %}
 {% block content %}
     <h1>{{ country }}</h1>
     <ul>
-        {% for movie in country.movies.all  %}
-            <li><a href="#">{{movie}}</a></li>
+        {% for movie in country.movies.all %}
+            <li>
+                <a href="{% url 'movie' movie.id %}">{{ movie }}</a>
+            </li>
         {% endfor %}
     </ul>
-
-{% endblock %}
+{% endblock content %}

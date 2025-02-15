@@ -1,21 +1,23 @@
 {% extends "base.html" %}
-
 {% block title %}
     Seznam žánrů
-{% endblock %}
-
+{% endblock title %}
 {% block content %}
     <h1>Žánry</h1>
     <ul>
         {% for genre in genres %}
             {% if genre.movies.count %}
-                <li><a href="{% url 'genre' genre.id %}">{{ genre }}</a> ({{ genre.movies.count }})</li>
+                <li>
+                    <a href="{% url 'genre' genre.id %}">{{ genre }}</a> ({{ genre.movies.count }})
+                </li>
                 <ul>
                     {% for movie in genre.movies.all %}
-                        <li><a href="{% url 'movie' movie.id %}">{{ movie }}</a></li>
+                        <li>
+                            <a href="{% url 'movie' movie.id %}">{{ movie }}</a>
+                        </li>
                     {% endfor %}
                 </ul>
             {% endif %}
         {% endfor %}
     </ul>
-{% endblock %}
+{% endblock content %}
